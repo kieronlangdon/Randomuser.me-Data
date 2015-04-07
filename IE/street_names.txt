@@ -1,0 +1,70 @@
+abbey street
+ailesbury road
+amiens street
+anglesea road
+anne street south 
+baggot street
+bayside boulevard
+bridge street
+capel street
+carrickbrack road
+clyde road
+college green
+dame street
+dawson street
+dorset street
+drumcondra road
+east wall road
+eccles street
+ely place
+fishamble street
+fitzwilliam square
+gardiner street
+gilford road
+grafton street
+greenfield road
+henrietta street
+henry street
+herbert park
+herbert road
+heytesbury street
+howth road
+kildare street
+leeson street
+marlborough street
+marrowbone lane
+merrion road
+merrion square
+merrion street
+molesworth street
+mountjoy square
+naas road
+nassau street
+newbridge avenue
+north circular road
+north strand road
+nutley lane
+o'connell street
+park avenue
+parliament street
+parnell square
+parnell street
+pearse street
+pembroke road
+raglan road
+sandymount avenue
+serpentine avenue
+south circular road
+st john's road east 
+st stephen's green
+stillorgan road
+sydney parade avenue
+talbot street
+temple bar
+templeogue road
+templeville road
+thormanby road
+tritonville road
+werburgh street
+westland row
+winetavern street
