@@ -1,7 +1,7 @@
 user
 $base_url   = http://api.randomuser.me/portraits/
-$version    = 0.5
-$nat        = GB
+$version    = 0.1
+$nat        = IE
 
 gender      = male
 
