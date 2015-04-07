@@ -1,0 +1,48 @@
+user
+$base_url   = http://api.randomuser.me/portraits/
+$version    = 0.5
+$nat        = GB
+
+gender      = male
+
+name        = {array, 3}
+title       = mr
+first       = {~2eTRbLz}
+last        = {~Yr1Let1}
+
+location    = {array, 4}
+street      = {random, numeric, 1000, 9999} {~hd23qvW}
+city        = {~OSeLsPB}
+state       = {~d5AeCoL}
+zip         = {random, numeric, 10000, 99999}}
+
+email       = {!first}.{!last}{random, numeric, 10, 99}@example.com
+username    = {~rgjs5Ec}{~agqg7Ff}{random, numeric, 1, 999}
+
+password    = {~3yolDfd}
+salt        = {random, special, 1, 8}
+$pass_salt  = {!password}{!salt}
+md5         = {hash, md5, {$pass_salt}}
+sha1        = {hash, sha1, {$pass_salt}}
+sha256      = {hash, sha256, {$pass_salt}}
+
+registered  = {random, numeric, 915148700, {timestamp}}
+dob         = {random, numeric, 0, 504921500}
+
+phone       = 07{random, special, 2, 2}-{random, special, 2, 3}-{random, special, 2, 3}
+cell        = 0{if, {gender}, ==, male, 1, 2}{random, special, 2, 3}-{random, special, 2, 3}-{random, special, 2, 3}
+
+// Nino calculation
+$nino_1     = {~FeITwGh}
+$nino_2     = {~pfx4HcX}
+NINO        = {upper, {$nino_1}{$nino_2} {random, special, 2, 2} {random, special, 2, 2} {random, special, 2, 2} {random, special, 5, 1}}
+
+picture     = {array, 3}
+$pic_id     = {random, numeric, 0, 96}
+large       = {$base_url}women/{$pic_id}.jpg
+medium      = {$base_url}med/women/{$pic_id}.jpg
+thumbnail   = {$base_url}thumb/women/{$pic_id}.jpg
+
+version     = {$version}
+
+nationality = {$nat}
